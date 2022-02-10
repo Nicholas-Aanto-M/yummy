@@ -1,0 +1,88 @@
+/* Hero Image STARTING*/
+
+.heroImgWithLinear {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("../img/home/leo-roza-P_z_xlMGuEk-unsplash@2x.png");
+}
+
+.heroImgWithLinear {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.heroImgContainer {
+  width: 90%;
+  margin: auto;
+  color: #f2f2f2;
+}
+
+.heroImgContainer h1 {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+}
+/* Hero Image  MEDIA QURIE*/
+@media (max-width: 620px) {
+  .heroImgContainer h1 {
+    font-size: 40px;
+  }
+}
+
+/* Hero Image ENDING*/
+
+/*================================ <<FOR HOME PAGE (STARTING)>> ==============================*/
+
+/* DECLARING height to Hero Image For Home page STARTING */
+.HomeMainContainer .heroImgWithLinear {
+  height: 600px;
+}
+/* DECLARING height to Hero Image For Home page ENDING */
+
+/* DECLARING Bottom Margin to Hero Image For Home page STARTING*/
+.HomeMainContainer .heroImgContainer h1 {
+  margin-bottom: 18px;
+}
+/* DECLARING Bottom Margin to Hero Image For Home page ENDING*/
+
+/* SEARCH BOX inside Hero Image STARTING*/
+.searchBox {
+  max-width: 580px;
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+.searchBox input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  padding: 0 50px 0 20px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  outline: none;
+  border: none;
+}
+
+.searchBox img {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  align-self: center;
+  right: 20px;
+}
+/* SEARCH BOX inside Hero ENDING*/
+
+/*================================ <<FOR HOME PAGE (ENDING)>> ==============================*/
+
+/*================================ <<FOR Add Recipies PAGE (STARTING)>> ==============================*/
+
+/* DECLARING height to Hero Image For Home page STARTING */
+.AddRecipeMainContainer .heroImgWithLinear {
+  height: 255px;
+}
+/* DECLARING height to Hero Image For Home page ENDING */
+
+/*================================ <<FOR Add Recipies PAGE (ENDING)>> ==============================*/

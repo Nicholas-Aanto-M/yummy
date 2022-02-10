@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <!-- Linking Css file home.css -->
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <!-- HomeMainContainer STARTING -->
+    <div class="HomeMainContainer">
+      <!-- NAVIGATION BAR STARTING -->
+      <div class="Nav">
+        <!-- Navigation bar Inner container for logo and Menus -->
+        <div class="Nav-InnerContainer">
+          <!-- Yummy Logo as SVG -->
+          <div class="Nav-InnerContainer-Logo">
+            <!--  Using <a> tag for Logo-->
+            <a href="index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="133"
+                height="64"
+                viewBox="0 0 133 64"
+              >
+                <text
+                  id="Yummy"
+                  transform="translate(0 45)"
+                  fill="#00b158"
+                  font-size="40"
+                  font-family="Apple-Chancery, Apple Chancery"
+                >
+                  <tspan x="0" y="0">Yummy</tspan>
+                </text>
+              </svg>
+            </a>
+
+            <!-- Using checkbtn to use CheckBtn img using background Image attributes -->
+            <div class="hamber" id="hamber-id">
+              <div class="hamber-icon" id="hamber-icon-id">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="20"
+                  viewBox="0 0 26 20"
+                >
+                  <g
+                    id="Group_22"
+                    data-name="Group 22"
+                    transform="translate(-345 -37)"
+                  >
+                    <rect
+                      id="Rectangle_18"
+                      data-name="Rectangle 18"
+                      width="26"
+                      height="4"
+                      rx="2"
+                      transform="translate(345 37)"
+                      fill="#17285a"
+                    />
+                    <rect
+                      id="Rectangle_19"
+                      data-name="Rectangle 19"
+                      width="26"
+                      height="4"
+                      rx="2"
+                      transform="translate(345 45)"
+                      fill="#17285a"
+                    />
+                    <rect
+                      id="Rectangle_20"
+                      data-name="Rectangle 20"
+                      width="26"
+                      height="4"
+                      rx="2"
+                      transform="translate(345 53)"
+                      fill="#17285a"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="hamberClose-icon" id="hamberClose-icon-id">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26px"
+                  viewBox="0 0 24 24"
+                  width="26px"
+                  fill="#17285a"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!--  Nav-InnerContainer-Menu for Home and Recipe <a> tag -->
+          <div class="Nav-InnerContainer-Menu" id="Nav-InnerContainer-Menu-id">
+            <a class="active" href="#header">Home</a>
+            <a href="#Recipe">Recipe</a>
+          </div>
+        </div>
+      </div>
+      <!-- NAVIGATION BAR ENDING -->
+
+      <!-- Home STARTING -->
+
+      <div id="header" class="heroImgWithLinear">
+        <div class="heroImgContainer">
+          <h1>Delicious recipes just click away</h1>
+          <form class="searchBox">
+            <input
+              type="text"
+              placeholder="Search"
+              id="searchBox"
+              src="./img/home/search.svg"
+              alt="searchIcon"
+            />
+
+            <img
+              src="./img/home/search.svg"
+              alt="searchIcon"
+              type="submit"
+              for="#searchBox"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!-- Home ENDING -->
+
+      <!-- Recipe STARTING -->
+      <div id="Recipe" class="Recipe">
+        <h1 class="OurRecipes">Our recipes</h1>
+        <h1 class="PopularRecipes">POPULAR RECIPES</h1>
+        <!-- RecipeContainerBox STARTING -->
+        <div class="RecipeContainerBox">
+          <div class="AddRecipesBtn">
+            <a href="addRecipe.html" class="AddRecipes">ADD RECIPES</a>
+          </div>
+
+          <!-- RecipeContainer STARTING -->
+          <div class="RecipeContainer">
+            <!-- Grill Chicken STARTING -->
+            <div class="RecipeBox">
+              <img
+                src="img/Recipes/RecipesImg/GrillChicken/claudio-schwarz-4qJlXK4mYzU-unsplash.png"
+                alt=""
+              />
+              <div class="RecipeBoxContent">
+                <div class="RecipeBoxContentName">
+                  <p>Grill Chicken</p>
+                  <img src="img/Recipes/VegNVIcon/NV.svg" alt="" />
+                </div>
+                <div class="Description">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Grill Chicken ENDING -->
+
+            <!-- Chicken pasta STARTING -->
+            <div class="RecipeBox">
+              <img
+                src="img/Recipes/RecipesImg/Chicken pasta/farhad-ibrahimzade-KpOl9jV2aJM-unsplash.png"
+                alt=""
+              />
+              <div class="RecipeBoxContent">
+                <div class="RecipeBoxContentName">
+                  <p>Chicken pasta</p>
+                  <img src="img/Recipes/VegNVIcon/NV.svg" alt="" />
+                </div>
+                <div class="Description">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Chicken pasta ENDING -->
+
+            <!-- Veg pasta STARTING -->
+            <div class="RecipeBox">
+              <img
+                src="img/Recipes/RecipesImg/Veg pasta/amirali-mirhashemian-v2z6Yhp_6Gc-unsplash.png"
+                alt=""
+              />
+              <div class="RecipeBoxContent">
+                <div class="RecipeBoxContentName">
+                  <p>Veg pasta</p>
+                  <img src="img/Recipes/VegNVIcon/Veg.svg" alt="" />
+                </div>
+                <div class="Description">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Veg pasta STARTING -->
+
+            <!-- Tomato Pizza STARTING -->
+            <div class="RecipeBox">
+              <img
+                src="img/Recipes/RecipesImg/Tomato Pizza/thomas-tucker-MNtag_eXMKw-unsplash.png"
+                alt=""
+              />
+              <div class="RecipeBoxContent">
+                <div class="RecipeBoxContentName">
+                  <p>Tomato Pizza</p>
+                  <img src="img/Recipes/VegNVIcon/Veg.svg" alt="" />
+                </div>
+                <div class="Description">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Tomato Pizza ENDING -->
+
+            <!-- Chicken wings STARTING -->
+            <div class="RecipeBox">
+              <img
+                src="img/Recipes/RecipesImg/Chicken wings/leo-roza-P_z_xlMGuEk-unsplash.png"
+                alt=""
+              />
+              <div class="RecipeBoxContent">
+                <div class="RecipeBoxContentName">
+                  <p>Chicken wings</p>
+                  <img src="img/Recipes/VegNVIcon/NV.svg" alt="" />
+                </div>
+                <div class="Description">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Chicken wings ENDING -->
+
+            <!-- Chicken chops STARTING -->
+            <div class="RecipeBox">
+              <img
+                src="img/Recipes/RecipesImg/Chicken chops/markus-winkler-WHtVB-RiW2I-unsplash.png"
+                alt=""
+              />
+              <div class="RecipeBoxContent">
+                <div class="RecipeBoxContentName">
+                  <p>Chicken chops</p>
+                  <img src="img/Recipes/VegNVIcon/NV.svg" alt="" />
+                </div>
+                <div class="Description">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Chicken chops ENDING -->
+          </div>
+          <!-- RecipeContainer ENDING -->
+        </div>
+        <!-- RecipeContainerBox ENDING -->
+      </div>
+      <!-- Recipe STARTING -->
+
+      <!-- Footer bar STARTING-->
+
+      <div class="YammyFooter">
+        <div class="footerMenu">
+          <div class="footerMenuLogo">
+            <a href="index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="133"
+                height="64"
+                viewBox="0 0 133 64"
+              >
+                <text
+                  id="Yummy"
+                  transform="translate(0 45)"
+                  fill="#FFFFFF"
+                  font-size="40"
+                  font-family="Apple-Chancery, Apple Chancery"
+                >
+                  <tspan x="0" y="0">Yummy</tspan>
+                </text>
+              </svg>
+            </a>
+          </div>
+          <div class="footerMenuAncor">
+            <a href="#header">Home </a>
+            <a href="#Recipe">Recipe</a>
+          </div>
+          <div class="footerMenuIcon">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="35"
+                height="35"
+                viewBox="0 0 35 35"
+              >
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect
+                      id="Rectangle_15"
+                      data-name="Rectangle 15"
+                      width="35"
+                      height="35"
+                      fill="none"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  id="Group_14"
+                  data-name="Group 14"
+                  transform="translate(45 0)"
+                >
+                  <g
+                    id="Group_13"
+                    data-name="Group 13"
+                    transform="translate(-45 0)"
+                    clip-path="url(#clip-path)"
+                  >
+                    <path
+                      id="Path_3"
+                      data-name="Path 3"
+                      d="M17.5,35h0A17.5,17.5,0,0,1,0,17.5H0a17.5,17.5,0,0,1,35,0h0A17.5,17.5,0,0,1,17.5,35"
+                      transform="translate(0 0)"
+                      fill="#fff"
+                    />
+                    <path
+                      id="Path_4"
+                      data-name="Path 4"
+                      d="M8.891,24.226A10.881,10.881,0,0,0,25.63,14.564a7.759,7.759,0,0,0,1.909-1.981,7.63,7.63,0,0,1-2.2.6,3.831,3.831,0,0,0,1.681-2.116A7.689,7.689,0,0,1,24.595,12a3.828,3.828,0,0,0-6.52,3.489,10.856,10.856,0,0,1-7.885-4A3.83,3.83,0,0,0,11.374,16.6a3.8,3.8,0,0,1-1.734-.479,3.832,3.832,0,0,0,3.07,3.8,3.847,3.847,0,0,1-1.728.065,3.83,3.83,0,0,0,3.574,2.657,7.687,7.687,0,0,1-5.665,1.584"
+                      transform="translate(-0.715 -0.868)"
+                      fill="#17285a"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="35"
+                height="35"
+                viewBox="0 0 35 35"
+              >
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect
+                      id="Rectangle_14"
+                      data-name="Rectangle 14"
+                      width="35"
+                      height="35"
+                      fill="#fff"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  id="Group_12"
+                  data-name="Group 12"
+                  transform="translate(36 0)"
+                >
+                  <g
+                    id="Group_11"
+                    data-name="Group 11"
+                    transform="translate(-36 0)"
+                    clip-path="url(#clip-path)"
+                  >
+                    <path
+                      id="Path_1"
+                      data-name="Path 1"
+                      d="M17.5,35h0A17.5,17.5,0,0,1,0,17.5H0a17.5,17.5,0,0,1,35,0h0A17.5,17.5,0,0,1,17.5,35"
+                      transform="translate(0 0)"
+                      fill="#fff"
+                    />
+                    <path
+                      id="Path_2"
+                      data-name="Path 2"
+                      d="M15.937,28.683H20.2V18.015H23.17l.316-3.572H20.2V12.409c0-.842.169-1.175.984-1.175h2.305V7.527h-2.95c-3.17,0-4.6,1.4-4.6,4.068v2.848H13.721V18.06h2.216Z"
+                      transform="translate(-1.103 -0.605)"
+                      fill="#17285a"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="35"
+                height="35"
+                viewBox="0 0 35 35"
+              >
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect
+                      id="Rectangle_16"
+                      data-name="Rectangle 16"
+                      width="35"
+                      height="35"
+                      fill="none"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  id="Group_16"
+                  data-name="Group 16"
+                  transform="translate(2 1)"
+                >
+                  <g
+                    id="Group_15"
+                    data-name="Group 15"
+                    transform="translate(-2 -1)"
+                    clip-path="url(#clip-path)"
+                  >
+                    <path
+                      id="Path_5"
+                      data-name="Path 5"
+                      d="M17.5,35h0A17.5,17.5,0,0,1,0,17.5H0a17.5,17.5,0,0,1,35,0h0A17.5,17.5,0,0,1,17.5,35"
+                      transform="translate(0 0)"
+                      fill="#fff"
+                    />
+                    <path
+                      id="Path_6"
+                      data-name="Path 6"
+                      d="M18.192,10.325c2.561,0,2.864.01,3.877.056a5.3,5.3,0,0,1,1.781.33,3,3,0,0,1,1.1.718,2.957,2.957,0,0,1,.716,1.1A5.287,5.287,0,0,1,26,14.314c.046,1.012.057,1.315.057,3.878s-.011,2.865-.057,3.877a5.287,5.287,0,0,1-.331,1.781,2.949,2.949,0,0,1-.716,1.1,3,3,0,0,1-1.1.718,5.3,5.3,0,0,1-1.781.33c-1.012.046-1.316.056-3.877.056s-2.865-.01-3.878-.056a5.3,5.3,0,0,1-1.781-.33,2.991,2.991,0,0,1-1.1-.718,2.952,2.952,0,0,1-.717-1.1,5.3,5.3,0,0,1-.332-1.781c-.045-1.012-.054-1.315-.054-3.877s.009-2.866.054-3.878a5.3,5.3,0,0,1,.332-1.781,2.959,2.959,0,0,1,.717-1.1,2.991,2.991,0,0,1,1.1-.718,5.3,5.3,0,0,1,1.781-.33c1.012-.046,1.315-.056,3.878-.056m0-1.729c-2.607,0-2.933.011-3.956.058a7.045,7.045,0,0,0-2.329.446A4.9,4.9,0,0,0,9.1,11.906a7.02,7.02,0,0,0-.446,2.328c-.046,1.023-.057,1.351-.057,3.957s.011,2.933.057,3.956A7.031,7.031,0,0,0,9.1,24.477a4.907,4.907,0,0,0,2.807,2.806,7.021,7.021,0,0,0,2.329.446c1.023.047,1.349.058,3.956.058s2.932-.011,3.956-.058a7.02,7.02,0,0,0,2.328-.446,4.907,4.907,0,0,0,2.807-2.806,7.052,7.052,0,0,0,.447-2.329c.045-1.023.057-1.351.057-3.956s-.012-2.933-.057-3.957a7.041,7.041,0,0,0-.447-2.328A4.9,4.9,0,0,0,24.476,9.1a7.043,7.043,0,0,0-2.328-.446C21.123,8.607,20.8,8.6,18.192,8.6"
+                      transform="translate(-0.691 -0.691)"
+                      fill="#17285a"
+                    />
+                    <path
+                      id="Path_7"
+                      data-name="Path 7"
+                      d="M18.6,13.673A4.927,4.927,0,1,0,23.527,18.6,4.927,4.927,0,0,0,18.6,13.673m0,8.125a3.2,3.2,0,1,1,3.2-3.2,3.2,3.2,0,0,1-3.2,3.2"
+                      transform="translate(-1.1 -1.1)"
+                      fill="#17285a"
+                    />
+                    <path
+                      id="Path_8"
+                      data-name="Path 8"
+                      d="M25.652,13.359A1.151,1.151,0,1,1,24.5,12.208a1.152,1.152,0,0,1,1.151,1.151"
+                      transform="translate(-1.878 -0.982)"
+                      fill="#fff"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footerCopyRights">
+          <p>©2022 by yummy.</p>
+        </div>
+      </div>
+
+      <!-- Footer bar ENDING-->
+    </div>
+    <!-- HomeMainContainer STARTING -->
+    <script src="js/NavHamber.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

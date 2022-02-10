@@ -1,0 +1,117 @@
+@import url(style.css);
+@import url(NavAndFooter.css);
+@import url(heroImg.css);
+
+/* DECLARING Bottom Margin to Hero Image STARTING*/
+.HomeMainContainer .heroImgContainer h1 {
+  margin-bottom: 18px;
+}
+/* DECLARING Bottom Margin to Hero Image ENDING*/
+
+/* Recipe STARTING*/
+
+.Recipe {
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.OurRecipes,
+.PopularRecipes {
+  text-align: center;
+}
+.OurRecipes {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00b158;
+  margin-top: 53px;
+}
+
+.PopularRecipes {
+  font-size: 38px;
+  font-weight: 600;
+  color: #17285a;
+}
+@media (max-width: 780px) {
+  .PopularRecipes {
+    font-size: 32px;
+    transition: 0.5s;
+  }
+}
+
+.AddRecipesBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+@media (max-width: 780px) {
+  .AddRecipesBtn {
+    justify-content: center;
+    transition: 1s;
+  }
+}
+
+.AddRecipes {
+  background-color: #4caf50;
+  color: white;
+  font-weight: 700;
+  border-radius: 23px;
+  padding: 10px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Recipe Container Starting */
+
+.RecipeContainerBox {
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+}
+
+.RecipeContainer {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  margin-top: 40px;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+@media (max-width: 1200px) {
+  .RecipeContainer {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 780px) {
+  .RecipeContainer {
+    grid-template-columns: auto;
+  }
+}
+
+.RecipeBox {
+  width: 343px;
+  height: 335px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #cbcbcb;
+  border-radius: 15px;
+}
+
+.RecipeBoxContent {
+  padding: 0px 20px;
+}
+
+.RecipeBoxContentName {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.Description p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+/* Recipe Container Starting */
+/* Recipe ENDING*/

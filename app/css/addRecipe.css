@@ -1,0 +1,160 @@
+@import url(style.css);
+@import url(NavAndFooter.css);
+@import url(heroImg.css);
+
+.AddRecipeFormContainer {
+  width: 75%;
+  margin: auto;
+  margin-top: 54px;
+}
+
+.BackToHome {
+  border-bottom: 1px solid #363636;
+  width: fit-content;
+}
+
+.BackToHome svg {
+  margin-right: 11px;
+}
+
+.BackToHome a {
+  text-decoration: none;
+  color: #363636;
+  font-weight: 500;
+}
+
+.BackToHome a,
+.FormInput label,
+.mt-update,
+.mt-Add-Recipes input {
+  font-size: 16px;
+}
+
+.FormTitle {
+  margin-top: 35.5px;
+}
+
+.FormTitle h1 {
+  font-size: 28px;
+  color: #17285a;
+}
+
+.FormTitle h1,
+.FormInput label,
+.mt-update label,
+.mt-Add-Recipes input {
+  font-weight: 600;
+}
+
+.AddRecipesForm {
+  max-width: 500px;
+  margin-top: 25px;
+}
+
+.FormInput {
+  display: grid;
+}
+
+.FormInput label,
+.mt-update {
+  margin-top: 15px;
+}
+
+.FormInput label,
+.FormInput input {
+  color: #363636;
+}
+
+.FormInput input {
+  padding: 10px 17px 15px 17px;
+  border-radius: 20px;
+  margin-top: 9px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+}
+
+.FormInput input,
+.Radio_button label {
+  font-size: 14px;
+}
+
+.mt-update {
+  display: flex;
+  justify-content: right;
+}
+
+.uploadBtn {
+  margin: 8.5px 0;
+}
+
+.uploadBtn label {
+  padding: 8.5px 33px;
+}
+
+.uploadBtn label,
+.mt-Add-Recipes input {
+  background: #00b158;
+  border-radius: 23px;
+  color: #ffffff;
+}
+
+.mt-Add-Recipes input {
+  padding: 11px 48px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  border: none;
+}
+
+.Radio_button {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.Radio_button label {
+  font-weight: 400;
+}
+
+.Radio_button label,
+.Radio_button input {
+  margin-top: 0;
+}
+
+.Radio_button_INPUT {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Radio_button_INPUT input {
+  margin-right: 7px;
+}
+.Radio_button .Radio_button_INPUT:first-child {
+  margin-top: 12px;
+}
+
+.Radio_button .Radio_button_INPUT:last-child {
+  margin-bottom: 8px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #f2f2f2;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 3px;
+}
+
+input[type="radio"]:checked {
+  background-color: #00b158;
+}
+
+.FormInput textarea {
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 20px;
+  padding: 15px 160px 11px 17px;
+  margin-top: 9px;
+}
